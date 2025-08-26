@@ -1,0 +1,75 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(136, 25, 25);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.959);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: #fff;
+}
+
+.large-image {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+audio {
+    width: 100%;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #20ac76;
+    border-radius: 20px;
+    color: #fff;
+    font-weight:bold ;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+#appName {
+    text-shadow: 0 0 3px #39ac39, 0 0 20px #4fb635;
+    font-size: 40px;    
+    color: #3abe45;
+    font-weight: bold;
+}
+#playlist li{
+    cursor: pointer;
+}
